@@ -5,73 +5,73 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
     vec![
         Product {
             id: 1,
-            name: "Contoso Catnip's Friend".to_string(),
-            price: 9.99,
-            description: "Watch your feline friend embark on a fishing adventure with Contoso Catnip's Friend toy. Packed with irresistible catnip and dangling fish lure.".to_string(),
-            image: "/catnip.jpg".to_string()
+            name: "Samsung 55\" 4K UHD Smart TV".to_string(),
+            price: 699.99,
+            description: "Experience stunning picture quality with HDR, Crystal Display technology, and built-in streaming apps like Netflix and Disney+.".to_string(),
+            image: "/products/1.jpg".to_string(),
         },
         Product {
             id: 2,
-            name: "Salty Sailor's Squeaky Squid".to_string(),
-            price: 6.99,
-            description: "Let your dog set sail with the Salty Sailor's Squeaky Squid. This interactive toy provides hours of fun, featuring multiple squeakers and crinkle tentacles.".to_string(),
-            image: "/squid.jpg".to_string()
+            name: "LG 65\" OLED C3 Smart TV".to_string(),
+            price: 1899.99,
+            description: "OLED technology delivers perfect blacks and vivid colors for cinematic viewing. Supports Dolby Atmos and Dolby Vision.".to_string(),
+            image: "/products/2.jpg".to_string(),
         },
         Product {
             id: 3,
-            name: "Mermaid's Mice Trio".to_string(),
-            price: 12.99,
-            description: "Entertain your kitty with the Mermaid's Mice Trio. These adorable plush mice are dressed as mermaids and filled with catnip to captivate their curiosity.".to_string(),
-            image: "/mermaid.jpg".to_string()
+            name: "Dell XPS 13 Laptop (i7, 16GB RAM, 512GB SSD)".to_string(),
+            price: 1299.99,
+            description: "Ultra-portable 13-inch laptop with slim bezels, excellent battery life, and premium build quality. Perfect for students and professionals.".to_string(),
+            image: "/products/3.jpg".to_string(),
         },
         Product {
             id: 4,
-            name: "Ocean Explorer's Puzzle Ball".to_string(),
-            price: 11.99,
-            description: "Challenge your pet's problem-solving skills with the Ocean Explorer's Puzzle Ball. This interactive toy features hidden compartments and treats, providing mental stimulation and entertainment.".to_string(),
-            image: "/ocean.jpg".to_string()
+            name: "Apple MacBook Air 13\" M2".to_string(),
+            price: 1499.99,
+            description: "Powered by Apple's M2 chip with blazing-fast performance, 13.6\" Liquid Retina display, and all-day battery life.".to_string(),
+            image: "/products/4.jpg".to_string(),
         },
         Product {
             id: 5,
-            name: "Pirate Parrot Teaser Wand".to_string(),
-            price: 8.99,
-            description: "Engage your cat in a playful pursuit with the Pirate Parrot Teaser Wand. The colorful feathers and jingling bells mimic the mischievous charm of a pirate's parrot.".to_string(),
-            image: "/pirate.jpg".to_string()
+            name: "iPhone 15 Pro (128GB)".to_string(),
+            price: 1399.99,
+            description: "The latest iPhone with A17 Pro chip, titanium design, advanced camera system, and USB-C connectivity.".to_string(),
+            image: "/products/5.jpg".to_string(),
         },
         Product {
             id: 6,
-            name: "Seafarer's Tug Rope".to_string(),
-            price: 14.99,
-            description: "Tug-of-war meets nautical adventure with the Seafarer's Tug Rope. Made from marine-grade rope, it's perfect for interactive play and promoting dental health in dogs.".to_string(),
-            image: "/tug.jpg".to_string()
+            name: "Samsung Galaxy S24 (256GB)".to_string(),
+            price: 1199.99,
+            description: "Features a 6.4\" AMOLED display, powerful triple camera, AI Zoom, and long-lasting battery life.".to_string(),
+            image: "/products/6.jpg".to_string(),
         },
         Product {
             id: 7,
-            name: "Seashell Snuggle Bed".to_string(),
-            price: 19.99,
-            description: "Give your furry friend a cozy spot to curl up with the Seashell Snuggle Bed. Shaped like a seashell, this plush bed provides comfort and relaxation for cats and small dogs.".to_string(),
-            image: "/bed.jpg".to_string()
+            name: "Sony WH-1000XM5 Wireless Headphones".to_string(),
+            price: 499.99,
+            description: "Industry-leading noise cancellation with up to 30 hours of battery. Lightweight, comfortable, and excellent audio quality.".to_string(),
+            image: "/products/7.jpg".to_string(),
         },
         Product {
             id: 8,
-            name: "Nautical Knot Ball".to_string(),
-            price: 7.99,
-            description: "Unleash your dog's inner sailor with the Nautical Knot Ball. Made from sturdy ropes, it's perfect for fetching, tugging, and satisfying their chewing needs.".to_string(),
-            image: "/knot.jpg".to_string()
+            name: "PlayStation 5 Console".to_string(),
+            price: 699.99,
+            description: "The latest gaming console from Sony with ultra-fast SSD, ray tracing, and immersive gaming experiences.".to_string(),
+            image: "/products/8.jpg".to_string(),
         },
         Product {
             id: 9,
-            name: "Contoso Claw's Crabby Cat Toy".to_string(),
-            price: 3.99,
-            description: "Watch your cat go crazy for Contoso Claw's Crabby Cat Toy. This crinkly and catnip-filled toy will awaken their hunting instincts and provide endless entertainment.".to_string(),
-            image: "/crabby.jpg".to_string()
+            name: "Nintendo Switch OLED Edition".to_string(),
+            price: 449.99,
+            description: "Vibrant OLED screen, enhanced audio, and versatile play modes. Perfect for gaming on the go or at home.".to_string(),
+            image: "/products/9.jpg".to_string(),
         },
         Product {
             id: 10,
-            name: "Ahoy Doggy Life Jacket".to_string(),
-            price: 5.99,
-            description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
-            image: "/lifejacket.jpg".to_string()
-        }
+            name: "Apple Watch Series 9".to_string(),
+            price: 599.99,
+            description: "Advanced health features, high-brightness display, and fast performance powered by the S9 chip.".to_string(),
+            image: "/products/10.jpg".to_string(),
+        },
     ]
 }
