@@ -107,7 +107,7 @@ jobs:
 
       - name: Deploy to AKS (immutable SHA tag)
         env:
-          # ✅ safest: hardcode your known namespace
+          # safest: hardcode your known namespace
           # If you prefer a repo variable, set vars.K8S_NAMESPACE = bestbuy and use that instead.
           NAMESPACE: bestbuy
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
