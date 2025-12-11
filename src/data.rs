@@ -72,7 +72,7 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
             name: "Apple Watch Series 9".to_string(),
             price: 599.99,
             description: "Advanced health features, high-brightness display, and fast performance powered by the S9 chip.".to_string(),
-            image: "/products/10.jpg".to_string(),
+            image: "/products/10.png".to_string(),
         },
     ]
 }
